@@ -45,66 +45,61 @@ Fig 1.3 NumPy for Machine Learning
 
 Machine Learning model also used to solve business problems. But we can’t provide ‘.tsv’, ‘.csv’ files data to the ML model, So for that also need to use NumPy array.
 
-In python NumPy tutorial at this movement, we have learned about Python NumPy Library theoretically but its time to do practicals.
+### In python NumPy tutorial at this movement, we have learned about Python NumPy Library theoretically but its time to do practicals.
 
-Practical Session of Python NumPy Tutorial
-How to install Python NumPy Library (package)?
+### Practical Session of Python NumPy Tutorial
+### How to install Python NumPy Library (package)?
 To use the NumPy package first of all need to install it.
 
 If you installed Anaconda Navigator and launched Jupyter Notebook or Spyder then no need to install NumPy. Anaconda Navigator installed NumPy itself. If you are using another IDE instead of Anaconda Navigator then follow below command in command prompt or terminal to install Python NumPy Library (Package).
 
-Go to top
+
 1
-pip install numpy
-Go to top
- Download Anaconda Navigation
+`pip install numpy`
+
 While entering the above command, your system has an internet connection because ‘pip’ package download ‘numpy’ package and then install it. After successful installation, You are ready to take the advantages of the NumPy package.
 
-How to import NumPy Library in IDE or How to use it?
+### How to import NumPy Library in IDE or How to use it?
 To use NumPy first import it. For import NumPy, follows below syntax in the python program file.
 
 1
-import numpy as np
-import: import keyword imports the NumPy package in the current file.
+`import numpy as np`
+#### import: import keyword imports the NumPy package in the current file.
 
-as:  as is a keyword used to create sort name of NumPy.
+#### as:  as is a keyword used to create sort name of NumPy.
 
-np: np is a short name given to NumPy, you can give any name (identifier) instead of it. If we use NumPy name in the program repeatedly so it will consume typing time and energy as well so for that we gave a short name for our convenience.
+#### np: np is a short name given to NumPy, you can give any name (identifier) instead of it. If we use NumPy name in the program repeatedly so it will consume typing time and energy as well so for that we gave a short name for our convenience.
 
-Flow the below syntax to create NumPy ndarray (multidimensional array)
-How to create one dimensional NumPy array?
+### Flow the below syntax to create NumPy ndarray (multidimensional array)
+### How to create one dimensional NumPy array?
 To create python NumPy array use array() function and give items of a list.
 
-Syntax: numpy.array(object, dtype=None, copy=True, order=’K’, subok=False, ndmin=0)
+#### Syntax: numpy.array(object, dtype=None, copy=True, order=’K’, subok=False, ndmin=0)
 
-1
-2
-3
-import numpy as np # import numpy package
+`import numpy as np # import numpy package
 one_d_array = np.array([1,2,3,4]) # create 1D array
-print(one_d_array) # printing 1d array
-1
-Output >>> [1 2 3 4]
-How to create two dimensional NumPy array?
+print(one_d_array) # printing 1d array`
+`
+Output >>> [1 2 3 4]`
+
+### How to create two dimensional NumPy array?
 To create 2D array, give items of lists in list to NumPy array() function.
 
-1
-2
-3
-import numpy as np # impoer numpy package
+
+`import numpy as np # impoer numpy package
 two_d_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]) # create 1D array
-print(two_d_array) #printing 2D array
-1
-2
-3
+print(two_d_array) #printing 2D array`
+
+`
 Ootput >>> [[1 2 3]
             [4 5 6]
-            [7 8 9]]
+            [7 8 9]]`
+            
 In this way, you can create NumPy ndarray
 
 Let’s going forward to learn more in python NumPy tutorial.
 
-How to check the type of ndarray?
+### How to check the type of ndarray?
 The type() function give the type of data.
 
 Syntax: type(self, /, *args, **kwargs)
