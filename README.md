@@ -76,24 +76,25 @@ To create python NumPy array use array() function and give items of a list.
 
 #### Syntax: numpy.array(object, dtype=None, copy=True, order=’K’, subok=False, ndmin=0)
 
-`import numpy as np # import numpy package
+`` import numpy as np # import numpy package
 one_d_array = np.array([1,2,3,4]) # create 1D array
-print(one_d_array) # printing 1d array`
+print(one_d_array) # printing 1d array ``
+
 `
-Output >>> [1 2 3 4]`
+Output >>> [1 2 3 4] `
 
 ### How to create two dimensional NumPy array?
 To create 2D array, give items of lists in list to NumPy array() function.
 
 
-`import numpy as np # impoer numpy package
+``import numpy as np # impoer numpy package
 two_d_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]) # create 1D array
-print(two_d_array) #printing 2D array`
+print(two_d_array) #printing 2D array``
 
-`
+``
 Ootput >>> [[1 2 3]
             [4 5 6]
-            [7 8 9]]`
+            [7 8 9]]``
             
 In this way, you can create NumPy ndarray
 
