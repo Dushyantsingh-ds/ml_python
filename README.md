@@ -14,7 +14,7 @@ NumPy Python library is too simple to learn. The basic python programming and it
 Some basic mathematics like vector and metrics are plus point.
 
 ### Representation of NumPy multidimensional arrays
-[alt text](https://i2.wp.com/indianaiproduction.com/wp-content/uploads/2019/06/Python-NumPy-Tutorial.png?resize=768%2C432&ssl=1)
+![alt text](https://i2.wp.com/indianaiproduction.com/wp-content/uploads/2019/06/Python-NumPy-Tutorial.png?resize=768%2C432&ssl=1)
 
 Python NumPy Tutorial
 Fig 1.1 Multidimensional NumPy arrays
@@ -32,15 +32,15 @@ If you observe in Fig 1.1. To create a NumPy array used list. NumPy array and Py
 Faster
 Uses less memory to store data.
 Convenient.
-[alt text](https://i0.wp.com/indianaiproduction.com/wp-content/uploads/2019/06/Python-NumPy-Tutorial-NumPy-vs-Python-List.png?resize=768%2C234&ssl=1)
+![alt text](https://i0.wp.com/indianaiproduction.com/wp-content/uploads/2019/06/Python-NumPy-Tutorial-NumPy-vs-Python-List.png?resize=768%2C234&ssl=1)
 
 ### Why use NumPy for machine learning, Deep Learning, and Data Science?
-[alt text](https://i0.wp.com/indianaiproduction.com/wp-content/uploads/2019/06/Python-NumPy-Tutorial-for-machine-learning-data-science-1.png?w=589&ssl=1)
+![alt text](https://i0.wp.com/indianaiproduction.com/wp-content/uploads/2019/06/Python-NumPy-Tutorial-for-machine-learning-data-science-1.png?w=589&ssl=1)
 Python NumPy Tutorial for machine learning data science
 Fig 1.2 NumPy for Machine Learning
 To solve computer vision and MRI, etc. So for that machine learning model want to use images, but the ML model can’t read image directly. So need to convert image into numeric form and then fit into NumPy array. which is the best way to give data to the ML model.
 
-[alt text](https://i0.wp.com/indianaiproduction.com/wp-content/uploads/2019/06/Python-NumPy-Tutorial-for-machine-learning-data-science-2.png?w=527&ssl=1)
+![alt text](https://i0.wp.com/indianaiproduction.com/wp-content/uploads/2019/06/Python-NumPy-Tutorial-for-machine-learning-data-science-2.png?w=527&ssl=1)
 Fig 1.3 NumPy for Machine Learning
 
 Machine Learning model also used to solve business problems. But we can’t provide ‘.tsv’, ‘.csv’ files data to the ML model, So for that also need to use NumPy array.
