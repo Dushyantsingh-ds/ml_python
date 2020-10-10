@@ -1,23 +1,21 @@
 # ml_python
-What is NumPy?
+### What is NumPy?
 NumPy is a scientific computing package (library) for python programming language.
-
 Numpy is a powerful Python programming language library to solve numerical problems.
 
-What is the meaning of NumPy word?
+### What is the meaning of NumPy word?
 
 Num stands for numerical and Py stands for Python programming language.
-
 Python NumPy library is especially used for numeric and mathematical calculation like linear algebra, Fourier transform, and random number capabilities using Numpy array.
-
 NumPy supports large data in the form of a multidimensional array (vector and matrix).
 
-Prerequisites to learn Python NumPy Library
+### Prerequisites to learn Python NumPy Library
 NumPy Python library is too simple to learn. The basic python programming and its other libraries like Pandas and Matplotlib knowledge will help to solve real-world problems.
-
 Some basic mathematics like vector and metrics are plus point.
 
-Representation of NumPy multidimensional arrays
+### Representation of NumPy multidimensional arrays
+[alt text](https://i2.wp.com/indianaiproduction.com/wp-content/uploads/2019/06/Python-NumPy-Tutorial.png?resize=768%2C432&ssl=1)
+
 Python NumPy Tutorial
 Fig 1.1 Multidimensional NumPy arrays
 The above figure 1.1 shows one dimensional (1D), two dimensional (2D) and three dimensional (3D) NumPy array
@@ -28,20 +26,23 @@ Two Dimensional NumPy arrays (2D): It means the collection of homogenous data in
 
 Three Dimensional NumPy arrays (3D): It means the collection of homogenous data in lists of lists of a list (tensor).
 
-Why NumPy array instead of Python List ?
+### Why NumPy array instead of Python List ?
 If you observe in Fig 1.1. To create a NumPy array used list. NumPy array and Python list are both the most similar. NumPy has written in C and Python. That’s a reason some special advantage over Python list is given below.
 
 Faster
 Uses less memory to store data.
 Convenient.
+[alt text](https://i0.wp.com/indianaiproduction.com/wp-content/uploads/2019/06/Python-NumPy-Tutorial-NumPy-vs-Python-List.png?resize=768%2C234&ssl=1)
 
-Why use NumPy for machine learning, Deep Learning, and Data Science?
+### Why use NumPy for machine learning, Deep Learning, and Data Science?
+[alt text](https://i0.wp.com/indianaiproduction.com/wp-content/uploads/2019/06/Python-NumPy-Tutorial-for-machine-learning-data-science-1.png?w=589&ssl=1)
 Python NumPy Tutorial for machine learning data science
 Fig 1.2 NumPy for Machine Learning
 To solve computer vision and MRI, etc. So for that machine learning model want to use images, but the ML model can’t read image directly. So need to convert image into numeric form and then fit into NumPy array. which is the best way to give data to the ML model.
 
-
+[alt text](https://i0.wp.com/indianaiproduction.com/wp-content/uploads/2019/06/Python-NumPy-Tutorial-for-machine-learning-data-science-2.png?w=527&ssl=1)
 Fig 1.3 NumPy for Machine Learning
+
 Machine Learning model also used to solve business problems. But we can’t provide ‘.tsv’, ‘.csv’ files data to the ML model, So for that also need to use NumPy array.
 
 In python NumPy tutorial at this movement, we have learned about Python NumPy Library theoretically but its time to do practicals.
