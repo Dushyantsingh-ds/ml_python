@@ -90,10 +90,10 @@ To create 2D array, give items of lists in list to NumPy array() function.
 ```
 import numpy as np # impoer numpy package
 two_d_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]) # create 1D array
+```
 print(two_d_array) #printing 2D array
 ```
 
-```
 Output >>> [[1 2 3]
             [4 5 6]
             [7 8 9]]
@@ -275,5 +275,5 @@ array([[ 1,  5,  9],
        [ 3,  7, 11],
        [ 4,  8, 12]])
 ```
-###Conclusion
+### Conclusion
 I hope, you learn each and every topic of python NumPy tutorial. This all topics important to do the project on machine learning and data science. Apart from the above-explained NumPy methods and operators, you can learn from numpy.org. This is an official website of python NumPy library. If you have fined any mistake in this tutorial of suggestions mention in the comment box. 
