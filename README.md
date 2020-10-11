@@ -120,7 +120,9 @@ The ndim attribute help to find the dimension of any NumPy array.
 
 #### Syntax: array_name.ndim
 
-``` one_d_array.ndim # find the dimension of one_d_array
+``` 
+one_d_array.ndim # find the dimension of one_d_array
+
 ```
 ```
 Output >>> 1
