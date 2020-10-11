@@ -20,18 +20,18 @@ Python NumPy Tutorial
 Fig 1.1 Multidimensional NumPy arrays
 The above figure 1.1 shows one dimensional (1D), two dimensional (2D) and three dimensional (3D) NumPy array
 
-One Dimensional NumPy array (1D): It means the collection of homogenous data in a single row (vector).
+$ One Dimensional NumPy array (1D): It means the collection of homogenous data in a single row (vector).
 
-Two Dimensional NumPy arrays (2D): It means the collection of homogenous data in lists of a list (matrix).
+$ Two Dimensional NumPy arrays (2D): It means the collection of homogenous data in lists of a list (matrix).
 
-Three Dimensional NumPy arrays (3D): It means the collection of homogenous data in lists of lists of a list (tensor).
+$ Three Dimensional NumPy arrays (3D): It means the collection of homogenous data in lists of lists of a list (tensor).
 
 ### Why NumPy array instead of Python List ?
 If you observe in Fig 1.1. To create a NumPy array used list. NumPy array and Python list are both the most similar. NumPy has written in C and Python. That’s a reason some special advantage over Python list is given below.
 
-Faster
-Uses less memory to store data.
-Convenient.
+$ Faster
+$ Uses less memory to store data.
+$ Convenient.
 ![alt text](https://i0.wp.com/indianaiproduction.com/wp-content/uploads/2019/06/Python-NumPy-Tutorial-NumPy-vs-Python-List.png?resize=768%2C234&ssl=1)
 
 ### Why use NumPy for machine learning, Deep Learning, and Data Science?
@@ -53,8 +53,6 @@ To use the NumPy package first of all need to install it.
 
 If you installed Anaconda Navigator and launched Jupyter Notebook or Spyder then no need to install NumPy. Anaconda Navigator installed NumPy itself. If you are using another IDE instead of Anaconda Navigator then follow below command in command prompt or terminal to install Python NumPy Library (Package).
 
-
-1
 `pip install numpy`
 
 While entering the above command, your system has an internet connection because ‘pip’ package download ‘numpy’ package and then install it. After successful installation, You are ready to take the advantages of the NumPy package.
@@ -62,7 +60,6 @@ While entering the above command, your system has an internet connection because
 ### How to import NumPy Library in IDE or How to use it?
 To use NumPy first import it. For import NumPy, follows below syntax in the python program file.
 
-1
 `import numpy as np`
 #### import: import keyword imports the NumPy package in the current file.
 
@@ -76,25 +73,32 @@ To create python NumPy array use array() function and give items of a list.
 
 #### Syntax: numpy.array(object, dtype=None, copy=True, order=’K’, subok=False, ndmin=0)
 
-`` import numpy as np # import numpy package
+```
+import numpy as np # import numpy package
 one_d_array = np.array([1,2,3,4]) # create 1D array
-print(one_d_array) # printing 1d array ``
+print(one_d_array) # printing 1d array 
+```
 
-`
-Output >>> [1 2 3 4] `
+```
+Output >>> [1 2 3 4] 
+```
 
 ### How to create two dimensional NumPy array?
 To create 2D array, give items of lists in list to NumPy array() function.
 
 
-``import numpy as np # impoer numpy package
+```
+import numpy as np # impoer numpy package
 two_d_array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]) # create 1D array
-print(two_d_array) #printing 2D array``
+print(two_d_array) #printing 2D array
+```
 
-``
-Ootput >>> [[1 2 3]
+```
+Output >>> [[1 2 3]
             [4 5 6]
-            [7 8 9]]``
+            [7 8 9]]
+            
+```
             
 In this way, you can create NumPy ndarray
 
@@ -103,164 +107,173 @@ Let’s going forward to learn more in python NumPy tutorial.
 ### How to check the type of ndarray?
 The type() function give the type of data.
 
-Syntax: type(self, /, *args, **kwargs)
+### Syntax: type(self, /, *args, **kwargs)
 
-1
+```
 type(one_d_array) # give the type of data present in one_d_array variable
-1
+```
+```
 Output >>> numpy.ndarray
-How to check dimension of NumPy ndarray?
+```
+### How to check dimension of NumPy ndarray?
 The ndim attribute help to find the dimension of any NumPy array.
 
-Syntax: array_name.ndim
+#### Syntax: array_name.ndim
 
-1
-one_d_array.ndim # find the dimension of one_d_array
-1
+``` one_d_array.ndim # find the dimension of one_d_array
+```
+```
 Output >>> 1
-1 value represent, one_d_array array has one dimension.
 
-How to check the size of the NumPy array?
+```
+Value represent, one_d_array array has one dimension.
+
+### How to check the size of the NumPy array?
 The size attribute help to know, how many items present in a ndarray.
 
-Syntax: array_name.size
+#### Syntax: array_name.size
 
-1
+```
 one_d_array.size
-1
+```
+```
 Output >>> 4
-4 value represent, total 4 item present in the one_d_array.
+```
+value represent, total 4 item present in the one_d_array.
 
-How to check the shape of ndarray?
+### How to check the shape of ndarray?
 The shape attribute help to know the shape of NumPy ndarray. It gives output in the form of a tuple data type. Tuple represents the number of rows and columns. Ex: (rows, columns)
 
-Syntax: array_name.shape
+#### Syntax: array_name.shape
 
-1
+```
 two_d_array.shape
-1
+```
+```
 Output >>> (3, 3)
+
+```
 The two_d_array has 3 rows and 3 columns.
 
-How to the data type of NumPy ndarray?
+### How to the data type of NumPy ndarray?
 The dtype attribute help to know the data type of ndarray.
 
-Syntax: array_name.dtype
-
-1
+#### Syntax: array_name.dtype
+```
 one_d_array.dtype
-1
+```
+```
 dtype('int32')
+```
 As per the above output one-d_array contain integer type data. This data store in 32 bit format (4 byte).
 
 Up to here you can create and know about NumPy ndarray in python NumPy tutorial. Let’s know more something interesting.
 
-Create metrics using python NumPy functions 
+### Create metrics using python NumPy functions 
 Ones metrics use NumPy ones() function.
 
-Syntax: np.ones(shape, dtype=None, order=‘C’)
+#### Syntax: np.ones(shape, dtype=None, order=‘C’)
 
-1
+```
 np.ones((3,3), dtype = int)
-1
-2
-3
-4
+```
+```
 Output >>>
 array([[1, 1, 1],
        [1, 1, 1],
        [1, 1, 1]])
-Zeros metrics use NumPy zeros() function.
+```
 
-Syntax: np.zeros(shape, dtype=None, order=‘C’)
+### Zeros metrics use NumPy zeros() function.
 
-1
+#### Syntax: np.zeros(shape, dtype=None, order=‘C’)
+
+```
 np.zeros((3, 3), dtype = int)
-1
-2
-3
-4
+```
+```
 Output >>>
 array([[0, 0, 0],
        [0, 0, 0],
        [0, 0, 0]])
-Empty metrics use NumPy empty() function.
+```
+### Empty metrics use NumPy empty() function.
 
-Syntax: np.empty(shape, dtype=None, order=‘C’)
+#### Syntax: np.empty(shape, dtype=None, order=‘C’)
 
-1
+```
 np.empty((2,4))
-1
-2
-3
+```
+```
 Output >>>
 array([[0.00000000e+000, 0.00000000e+000, 0.00000000e+000, 0.00000000e+000],
        [0.00000000e+000, 6.42285340e-321, 8.70018274e-313,6.95271921e-310]])
+```
 By default NumPy empty() function give float64 bit random value. According to your requirement change dtype.
 
-Create NumPy 1D array using arange() function
+### Create NumPy 1D array using arange() function
 
-Syntax: np.arange([start,] stop[, step,], dtype=None)
+#### Syntax: np.arange([start,] stop[, step,], dtype=None)
 
-1
-2
+```
 arr = np.arange(1,13)
 print(arr)
-1
+```
+```
 Output >>> [ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12]
-Create NumPy 1D array using linspace() function
+```
+### Create NumPy 1D array using linspace() function
 
 Return evenly spaced numbers over a specified interval.
 
-Syntax: np.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0,)
+#### Syntax: np.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0,)
 
-1
+```
 np.linspace(1,5,4)
-1
+```
+```
 Output >>> array([1.        , 2.33333333, 3.66666667, 5.        ])
-Convert 1D array to multidimensional array using reshape() function
+```
 
-Syntax: np.reshape(a, newshape, order=‘C’)
+### Convert 1D array to multidimensional array using reshape() function
 
-1
-2
+#### Syntax: np.reshape(a, newshape, order=‘C’)
+
+```
 arr_reshape = np.reshape(arr, (3,4))
 print(arr_reshape)
-1
-2
-3
-4
+```
+```
 Output >>> 
 [[ 1  2  3  4]
  [ 5  6  7  8]
  [ 9 10 11 12]]
-Convert multidimensional array in one dimensional
+```
+### Convert multidimensional array in one dimensional
 
 To convert multidimensional array into 1D use ravel() or flatten() function.
 
-Syntax: np.ravel(array_name, order=‘C’)  or  array_name.ravel(order=‘C’)
+#### Syntax: np.ravel(array_name, order=‘C’)  or  array_name.ravel(order=‘C’)
 
-               array_name.flatten(order=‘C’)
-
-1
+```
+array_name.flatten(order=‘C’)
 arr_reshape.flatten()
-1
 array([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12])
-Transpose metrics
+```
 
-Syntax: np.transpose(array_name, axes=None)  or
+### Transpose metrics
 
-                array_name.T
+#### Syntax: np.transpose(array_name, axes=None)  or
 
-1
-2
-3
-4
-5
+``` 
+array_name.T
+```
+```
 Output >>>
 array([[ 1,  5,  9],
        [ 2,  6, 10],
        [ 3,  7, 11],
        [ 4,  8, 12]])
-Conclusion
+```
+###Conclusion
 I hope, you learn each and every topic of python NumPy tutorial. This all topics important to do the project on machine learning and data science. Apart from the above-explained NumPy methods and operators, you can learn from numpy.org. This is an official website of python NumPy library. If you have fined any mistake in this tutorial of suggestions mention in the comment box. 
